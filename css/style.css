@@ -1,0 +1,21 @@
+/* reset and utilities */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+/* header */
