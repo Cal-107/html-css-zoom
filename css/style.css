@@ -19,7 +19,7 @@ body {
 }
 
 .p-10 {
-    padding: 10px 10px;
+    padding: 10px 10px
 }
 
 /* header */
@@ -48,7 +48,7 @@ main {
 
 .card-box {
     width: 300px;
-    padding: 0 5px;
+    padding: 5px 5px;
 }
 
 .card {
@@ -74,9 +74,35 @@ main {
 footer {
     display: flex;
     justify-content: space-between;
+    background-color: #212224;
+}
+
+.nav-section {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-section ul {
+    display: flex;
 }
 
 .nav-section li {
     list-style: none;
+    text-align: center;
+    padding-right: 35px;
 }
 
+.nav-section ul li i {
+    font-size: 30px;
+    padding: 8px 0px;
+}
+
+.nav-section span {
+    display: block;
+    font-size: 15px;
+}
+
+.button-2 {
+    color: #f6564b;
+    border-radius: 0;
+}
